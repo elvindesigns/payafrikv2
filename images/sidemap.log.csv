@@ -1,0 +1,21 @@
+Operation,Total Time,Average Time,Run Count
+extensible.SVG(),03m 20s,03m 20s,1
+extensible.SVG.doInit(),00m 00s,00m 00s,2
+extensible.SVG.doNextTimeline(),00m 04s,00m 02s,2
+extensible.SVG._getTimeline(),00m 04s,00m 02s,2
+extensible.SVG.hasTweensInRange(),00m 01s,00m 01s,2
+extensible.SVG._getTimeline() >> Check break apart tweens,00m 01s,00m 01s,2
+extensible.SVG._getTimeline() >> Get frame items,00m 00s,00m 00s,181
+extensible.SVG._getShape(),02m 44s,00m 01s,181
+extensible.SVG.checkExpand(),00m 04s,00m 00s,540
+extensible.SVG.executeExpandUse(),00m 00s,00m 00s,181
+extensible.SVG.simplifyFrame(),00m 01s,00m 00s,182
+extensible.SVG.processFinaliseDocuments(),00m 00s,00m 00s,2
+extensible.SVG._applyColorEffects(),00m 00s,00m 00s,362
+extensible.SVG.processFixUseLinks(),00m 00s,00m 00s,2
+extensible.SVG.processCompactColours(),00m 00s,00m 00s,2
+extensible.SVG.processRemoveZeros(),00m 00s,00m 00s,2
+extensible.SVG.processSimplifyOnes(),00m 00s,00m 00s,2
+extensible.SVG.processRemoveIdentMatrices(),00m 00s,00m 00s,2
+extensible.SVG.processSimplifyMatrices(),00m 00s,00m 00s,2
+extensible.SVG.processConvertHairlineStrokes(),00m 00s,00m 00s,2
