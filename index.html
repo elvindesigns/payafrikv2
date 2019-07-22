@@ -13,15 +13,22 @@
   <body>
     <div class="form-body">
       <canvas id="pagebg" resize></canvas>
-      <div class="container">
-        <div id="menu">
-          <div id="links">
-            <img src="./images/logo.png" alt="" />
+
+      <header>
+        <!-- <div id="menu"> -->
+        <div>
+          <a href="#" id="logo-pane" style="padding-top: 30px;"
+            ><img
+              style="filter: brightness(0) invert(1); height: 30px;margin: 30px"
+              src="./images/logo.png"
+              alt=""
+          /></a>
+
+          <nav class="nav-collapse">
             <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li>
+              <li class="menu-item active"><a href="#">Services</a></li>
+              <li class="menu-item "><a href="#">Contact Us</a></li>
+              <li class="menu-item">
                 <a
                   style="padding:15px; background-color: white; color: black; border-radius: 50px"
                   href=""
@@ -29,13 +36,13 @@
                 >
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
-      </div>
+      </header>
       <div class="container">
-        <div id="header">
-          <div>
-            <img src="images/logo.png" alt="" />
+        <div id="header" class="row">
+          <div class="col-md-6">
+            <img style="width:75%" src="images/logo.png" alt="" />
             <h2>a decentralised payment solution</h2>
             <p>
               PayAfrik is primarily a decentralised payment solution that
@@ -49,22 +56,27 @@
               >Read More</a
             >
           </div>
-          <div style="position:relative">
+          <div style="position:relative;" class="col-md-6">
             <img
-              style="opacity:0.20; position: absolute"
+              style="opacity:0.20; position: absolute;width: 95%"
               src="images/map_anim.svg"
               alt=""
             />
             <img
-              style="opacity:0.85; margin-left: 40px"
-              src="./images/maps.png"
+              style="opacity:0.85; width: 100%"
+              src="./images/mapgrow_anim.svg"
               alt=""
             />
           </div>
         </div>
       </div>
     </div>
-
+    <div style="height:100px"></div>
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="js/responsive-nav.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
     <script src="js/paper-full.min.js"></script>
     <script src="js/animation6.js"></script>
   </body>
