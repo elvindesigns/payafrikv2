@@ -306,3 +306,119 @@ header {
     opacity: 0 !important;
   }
 } */
+#bills {
+  position: relative;
+}
+#bills #box-holder {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+#bills h2 {
+  font-weight: bolder;
+  font-size: 38px;
+}
+
+.billcol {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.billcol div {
+  max-width: 400px;
+}
+.boxes {
+  height: 150px;
+  margin-bottom: 5px;
+  /* width: 60px; */
+  background-color: #ca3716;
+  margin-right: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.boxes::before {
+  background-color: #1b67d4;
+  height: 150px;
+  z-index: 1000;
+}
+.boxes:hover {
+  transform: scale(1.1);
+}
+.boxes img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.cube {
+  position: absolute;
+  top: 40vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #003298;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+  animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #0051f4;
+}
+.cube:nth-child(2) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  left: 25vw;
+  top: 30vh;
+}
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  left: 75vw;
+  top: 30vh;
+}
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  left: 10vw;
+  top: 25vh;
+}
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
