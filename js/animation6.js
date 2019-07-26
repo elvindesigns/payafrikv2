@@ -167,4 +167,19 @@ window.onload = function() {
   paper.view.onResize = function(event) {
     fixSize();
   };
+  let h = $('.flag').width();
+  for(var i = 0; i < h; i++){
+    let flagElement = $("<div class='flag-element'>");
+    flagElement.css('background-position', -i + "px 0");
+    flagElement.css('-webkit-animation-delay', i * 25 + 'ms');
+    flagElement.css('-moz-animation-delay', i * 25 + 'ms');
+    flagElement.css('-ms-animation-delay', i * 25 + 'ms');
+    flagElement.css('animation-delay', i * 25 + 'ms');
+    $('.flag').append(flagElement);
+  }
+
+  let flag = $(`.flag`);
+  console.log(flag.width());
+  let flagElement = $('.flag-element');
+  flagElement.css('background-size', `${flag.width()}px ${flag.height()}px`);
 };
