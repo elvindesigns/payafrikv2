@@ -943,26 +943,14 @@ footer.contact-fot .bottom {
 
 .flag-el10 .flag-element{
   background: url('../images/flags/za.png') no-repeat;
-  -webkit-animation:oscill .9s ease-in-out infinite alternate;
-  -moz-animation:oscill .9s ease-in-out infinite alternate;
-  -ms-animation:oscill .9s ease-in-out infinite alternate;
-  animation:oscill .9s ease-in-out infinite alternate;
 }
 
 .flag-el11 .flag-element{
   background: url('../images/flags/zm.png') no-repeat;
-  -webkit-animation:oscill 1s ease-in-out infinite alternate;
-  -moz-animation:oscill 1s ease-in-out infinite alternate;
-  -ms-animation:oscill 1s ease-in-out infinite alternate;
-  animation:oscill 1s ease-in-out infinite alternate;
 }
 
 .flag-el12 .flag-element{
   background: url('../images/flags/zw.png') no-repeat;
-  -webkit-animation:oscill 1.2s ease-in-out infinite alternate;
-  -moz-animation:oscill 1.2s ease-in-out infinite alternate;
-  -ms-animation:oscill 1.2s ease-in-out infinite alternate;
-  animation:oscill 1.2s ease-in-out infinite alternate;
 }
 
 .cube{
