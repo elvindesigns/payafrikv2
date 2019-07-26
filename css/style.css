@@ -3,36 +3,17 @@
   position: relative;
   z-index: 0;
 }
-@-webkit-keyframes oscill {
+@keyframes pulse {
   0% {
-    top: 5%;
+    transform: scale(0.95);
   }
+  
+  70% {
+    transform: scale(1.1);
+  }
+  
   100% {
-    top: -5%;
-  }
-}
-@-moz-keyframes oscill {
-  0% {
-    top: 5%;
-  }
-  100% {
-    top: -5%;
-  }
-}
-@-ms-keyframes oscill {
-  0% {
-    top: 5%;
-  }
-  100% {
-    top: -5%;
-  }
-}
-@keyframes oscill {
-  0% {
-    top: 5%;
-  }
-  100% {
-    top: -5%;
+    transform: scale(0.95);
   }
 }
 #menu {
@@ -856,103 +837,91 @@ footer.contact-fot .bottom {
 }
 
 .flag {
-  margin: 15px 0 0;
   height:100px;
   padding: 0 0 0 10px;
+}
+
+
+.flag-el1 .flag-element{
+  background: url('../images/flags/gb.png') no-repeat;
+  animation: pulse 3s infinite ease-out;
+}
+
+.flag-el2 .flag-element{
+  background: url('../images/flags/ke.png') no-repeat;
+  animation: pulse 2.8s infinite ease-out;
+}
+
+.flag-el3 .flag-element{
+  background: url('../images/flags/ng.png') no-repeat;
+  animation: pulse 3.2s infinite ease-out;
+}
+
+.flag-el4 .flag-element{
+  background: url('../images/flags/ro.png') no-repeat;
+  animation: pulse 3.1s infinite ease-out;
+}
+
+.flag-el5 .flag-element{
+  background: url('../images/flags/rw.png') no-repeat;
+  animation: pulse 2.9s infinite ease-out;
+}
+
+.flag-el6 .flag-element{
+  background: url('../images/flags/sn.png') no-repeat;
+  animation: pulse 3s infinite ease-out;
+}
+
+.flag-el7 .flag-element{
+  background: url('../images/flags/st.png') no-repeat;
+  animation: pulse 2.8s infinite ease-out;
+}
+
+.flag-el8 .flag-element{
+  background: url('../images/flags/tz.png') no-repeat;
+  animation: pulse 3.2s infinite ease-out;
+}
+
+.flag-el9 .flag-element{
+  background: url('../images/flags/us.png') no-repeat;
+  animation: pulse 3.1s infinite ease-out;
+}
+
+.flag-el10 .flag-element{
+  background: url('../images/flags/za.png') no-repeat;
+  animation: pulse 3s infinite ease-out;
+}
+
+.flag-el11 .flag-element{
+  background: url('../images/flags/zm.png') no-repeat;
+  animation: pulse 2.8s infinite ease-out;
+}
+
+.flag-el12 .flag-element{
+  background: url('../images/flags/zw.png') no-repeat;
+  animation: pulse 3.2s infinite ease-out;
 }
 
 .flag-element {
   position:relative;
   height:100%;
-  width:1px;
-  display:inline-block;
-  box-shadow:0 1px grey, 0 -1px gray;
+  width:100%;
+  -webkit-background-size: 100%!important;
+  background-size: 100%!important;
 }
-
-.flag-el1 .flag-element{
-  background: url('../images/flags/gb.png') no-repeat;
-  -webkit-animation:oscill 1s ease-in-out infinite alternate;
-  -moz-animation:oscill 1s ease-in-out infinite alternate;
-  -ms-animation:oscill 1s ease-in-out infinite alternate;
-  animation:oscill 1s ease-in-out infinite alternate;
-}
-
-.flag-el2 .flag-element{
-  background: url('../images/flags/ke.png') no-repeat;
-  -webkit-animation:oscill .9s ease-in-out infinite alternate;
-  -moz-animation:oscill .9s ease-in-out infinite alternate;
-  -ms-animation:oscill .9s ease-in-out infinite alternate;
-  animation:oscill .9s ease-in-out infinite alternate;
-}
-
-.flag-el3 .flag-element{
-  background: url('../images/flags/ng.png') no-repeat;
-  -webkit-animation:oscill 1.1s ease-in-out infinite alternate;
-  -moz-animation:oscill 1.1s ease-in-out infinite alternate;
-  -ms-animation:oscill 1.1s ease-in-out infinite alternate;
-  animation:oscill 1.1s ease-in-out infinite alternate;
-}
-
-.flag-el4 .flag-element{
-  background: url('../images/flags/ro.png') no-repeat;
-  -webkit-animation:oscill 1.2s ease-in-out infinite alternate;
-  -moz-animation:oscill 1.2s ease-in-out infinite alternate;
-  -ms-animation:oscill 1.2s ease-in-out infinite alternate;
-  animation:oscill 1.2s ease-in-out infinite alternate;
-}
-
-.flag-el5 .flag-element{
-  background: url('../images/flags/rw.png') no-repeat;
-  -webkit-animation:oscill 1.2s ease-in-out infinite alternate;
-  -moz-animation:oscill 1.2s ease-in-out infinite alternate;
-  -ms-animation:oscill 1.2s ease-in-out infinite alternate;
-  animation:oscill 1.2s ease-in-out infinite alternate;
-}
-
-.flag-el6 .flag-element{
-  background: url('../images/flags/sn.png') no-repeat;
-  -webkit-animation:oscill 1.1s ease-in-out infinite alternate;
-  -moz-animation:oscill 1.1s ease-in-out infinite alternate;
-  -ms-animation:oscill 1.1s ease-in-out infinite alternate;
-  animation:oscill 1.1s ease-in-out infinite alternate;
-}
-
-.flag-el7 .flag-element{
-  background: url('../images/flags/st.png') no-repeat;
-  -webkit-animation:oscill 1s ease-in-out infinite alternate;
-  -moz-animation:oscill 1s ease-in-out infinite alternate;
-  -ms-animation:oscill 1s ease-in-out infinite alternate;
-  animation:oscill 1s ease-in-out infinite alternate;
-}
-
-.flag-el8 .flag-element{
-  background: url('../images/flags/tz.png') no-repeat;
-  -webkit-animation:oscill .9s ease-in-out infinite alternate;
-  -moz-animation:oscill .9s ease-in-out infinite alternate;
-  -ms-animation:oscill .9s ease-in-out infinite alternate;
-  animation:oscill .9s ease-in-out infinite alternate;
-}
-
-.flag-el9 .flag-element{
-  background: url('../images/flags/us.png') no-repeat;
-  -webkit-animation:oscill 1.1s ease-in-out infinite alternate;
-  -moz-animation:oscill 1.1s ease-in-out infinite alternate;
-  -ms-animation:oscill 1.1s ease-in-out infinite alternate;
-  animation:oscill 1.1s ease-in-out infinite alternate;
-}
-
-.flag-el10 .flag-element{
-  background: url('../images/flags/za.png') no-repeat;
-}
-
-.flag-el11 .flag-element{
-  background: url('../images/flags/zm.png') no-repeat;
-}
-
-.flag-el12 .flag-element{
-  background: url('../images/flags/zw.png') no-repeat;
-}
-
 .cube{
   z-index: 0!important;
+}
+
+
+.z-index-5{
+  z-index: 0;
+}
+
+.z-index-0{
+  z-index: -1;
+}
+
+.circles li,.circles{
+  z-index: -1!important;
 }
