@@ -649,9 +649,11 @@ footer.contact-fot {
   background: none;
 }
 
-.content-sec input::placeholder, .content-sec textarea::placeholder{
+.content-sec input::placeholder, .content-sec textarea::placeholder, .content-sec textarea:-moz-placeholder{
   color: #fcfcfc;
+  opacity: 1;
 }
+
 
 .contact_info ul li {
   margin-bottom: 26px;
