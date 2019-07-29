@@ -369,9 +369,17 @@ header {
   width: 100%;
   object-fit: cover;
   height: 100%;
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 149px;
+  max-width: 149px;
 }
+
+@media (max-width: 380px) {
+  .boxes img {
+    min-width: 130px;
+    max-width: 135px;
+  }
+}
+
 .cube {
   position: absolute;
   top: 40vh;
