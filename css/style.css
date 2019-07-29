@@ -7,11 +7,11 @@
   0% {
     transform: scale(0.95);
   }
-  
+
   70% {
     transform: scale(1.1);
   }
-  
+
   100% {
     transform: scale(0.95);
   }
@@ -354,7 +354,7 @@ header {
   margin-bottom: 5px;
   /* width: 60px; */
   /*background-color: #ca3716;*/
-  padding-right: 5px!important;
+  padding-right: 5px !important;
   transition: all 0.3s ease-in-out;
 }
 .boxes::before {
@@ -369,6 +369,8 @@ header {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  min-width: 150px;
+  max-width: 150px;
 }
 .cube {
   position: absolute;
@@ -837,91 +839,105 @@ footer.contact-fot .bottom {
 }
 
 .flag {
-  height:100px;
+  height: 100px;
   padding: 0 0 0 10px;
 }
 
-
-.flag-el1 .flag-element{
-  background: url('../images/flags/gb.png') no-repeat;
+.flag-el1 .flag-element {
+  background: url("../images/flags/gb.png") no-repeat;
   animation: pulse 3s infinite ease-out;
 }
 
-.flag-el2 .flag-element{
-  background: url('../images/flags/ke.png') no-repeat;
+.flag-el2 .flag-element {
+  background: url("../images/flags/ke.png") no-repeat;
   animation: pulse 2.8s infinite ease-out;
 }
 
-.flag-el3 .flag-element{
-  background: url('../images/flags/ng.png') no-repeat;
+.flag-el3 .flag-element {
+  background: url("../images/flags/ng.png") no-repeat;
   animation: pulse 3.2s infinite ease-out;
 }
 
-.flag-el4 .flag-element{
-  background: url('../images/flags/ro.png') no-repeat;
+.flag-el4 .flag-element {
+  background: url("../images/flags/ro.png") no-repeat;
   animation: pulse 3.1s infinite ease-out;
 }
 
-.flag-el5 .flag-element{
-  background: url('../images/flags/rw.png') no-repeat;
+.flag-el5 .flag-element {
+  background: url("../images/flags/rw.png") no-repeat;
   animation: pulse 2.9s infinite ease-out;
 }
 
-.flag-el6 .flag-element{
-  background: url('../images/flags/sn.png') no-repeat;
+.flag-el6 .flag-element {
+  background: url("../images/flags/sn.png") no-repeat;
   animation: pulse 3s infinite ease-out;
 }
 
-.flag-el7 .flag-element{
-  background: url('../images/flags/st.png') no-repeat;
+.flag-el7 .flag-element {
+  background: url("../images/flags/st.png") no-repeat;
   animation: pulse 2.8s infinite ease-out;
 }
 
-.flag-el8 .flag-element{
-  background: url('../images/flags/tz.png') no-repeat;
+.flag-el8 .flag-element {
+  background: url("../images/flags/tz.png") no-repeat;
   animation: pulse 3.2s infinite ease-out;
 }
 
-.flag-el9 .flag-element{
-  background: url('../images/flags/us.png') no-repeat;
+.flag-el9 .flag-element {
+  background: url("../images/flags/us.png") no-repeat;
   animation: pulse 3.1s infinite ease-out;
 }
 
-.flag-el10 .flag-element{
-  background: url('../images/flags/za.png') no-repeat;
+.flag-el10 .flag-element {
+  background: url("../images/flags/za.png") no-repeat;
   animation: pulse 3s infinite ease-out;
 }
 
-.flag-el11 .flag-element{
-  background: url('../images/flags/zm.png') no-repeat;
+.flag-el11 .flag-element {
+  background: url("../images/flags/zm.png") no-repeat;
   animation: pulse 2.8s infinite ease-out;
 }
 
-.flag-el12 .flag-element{
-  background: url('../images/flags/zw.png') no-repeat;
+.flag-el12 .flag-element {
+  background: url("../images/flags/zw.png") no-repeat;
   animation: pulse 3.2s infinite ease-out;
 }
 
 .flag-element {
-  position:relative;
-  height:100%;
-  width:100%;
-  -webkit-background-size: 100%!important;
-  background-size: 100%!important;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: 100% !important;
+  background-size: 100% !important;
 }
-.cube{
-  z-index: 0!important;
+.cube {
+  z-index: 0 !important;
 }
 
-
-.z-index-5{
+.z-index-5 {
   z-index: 0;
 }
 
-.z-index-0{
+.z-index-0 {
   z-index: -1;
 }
 
-.circles li,.circles{
-  z-index: -1!important;
+.circles li,
+.circles {
+  z-index: -1 !important;
+}
+
+form .form-group input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+textarea {
+  background-color: #007bff;
+  color: white;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  background-color: #007bff;
+  color: white;
 }
