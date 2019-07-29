@@ -386,8 +386,9 @@ header {
   left: 45vw;
   width: 10px;
   z-index: 0;
-  height: 10px;
-  border: solid 1px #003298;
+  background: url(../images/img/logo.svg) no-repeat;
+  height: 10px;/*
+  border: solid 1px #003298;*/
   -webkit-transform-origin: top left;
   transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
