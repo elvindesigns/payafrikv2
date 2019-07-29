@@ -649,6 +649,10 @@ footer.contact-fot {
   background: none;
 }
 
+.content-sec input::placeholder, .content-sec textarea::placeholder{
+  color: #fcfcfc;
+}
+
 .contact_info ul li {
   margin-bottom: 26px;
   display: inline-block;
@@ -752,8 +756,9 @@ footer.contact-fot .bottom {
   display: block;
   list-style: none;
   width: 20px;
-  height: 20px;
-  background: rgba(91, 162, 255, 0.376);
+  background: url(../images/img/logo.svg) no-repeat;
+  height: 20px;/*
+  background: rgba(91, 162, 255, 0.376);*/
   animation: animate 25s linear infinite;
   bottom: -150px;
 }

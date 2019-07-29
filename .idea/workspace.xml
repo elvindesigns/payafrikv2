@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="122c681e-e105-4e3b-9fb9-6e73c8d317ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -60,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="388" column="51" selection-start-line="388" selection-start-column="51" selection-end-line="388" selection-end-column="51" />
+            <state relative-caret-position="292">
+              <caret line="758" column="52" selection-start-line="758" selection-start-column="52" selection-end-line="758" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -76,8 +87,10 @@
       <find>boxed</find>
       <find>bill</find>
       <find>box-hol</find>
-      <find>circle</find>
+      <find>.con</find>
+      <find>content-sec</find>
       <find>cube</find>
+      <find>circle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,18 +191,18 @@
       <updated>1564130644677</updated>
       <workItem from="1564130653119" duration="4104000" />
       <workItem from="1564140987864" duration="11552000" />
-      <workItem from="1564407464748" duration="2190000" />
+      <workItem from="1564407464748" duration="2451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17846000" />
+    <option name="totallyTimeSpent" value="18107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -218,10 +231,10 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Flutter Inspector" order="5" />
       <window_info anchor="right" id="Flutter Outline" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="388" column="51" selection-start-line="388" selection-start-column="51" selection-end-line="388" selection-end-column="51" />
+        <state relative-caret-position="292">
+          <caret line="758" column="52" selection-start-line="758" selection-start-column="52" selection-end-line="758" selection-end-column="52" />
         </state>
       </provider>
     </entry>
